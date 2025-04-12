@@ -1,0 +1,11 @@
+@import "./reset";
+@import "./variables";
+@import "./mixins";
+
+/* 글로벌 스타일 */
+body {
+  font-family: "Pretendard", sans-serif;
+  background: #f9f9f9;
+  color: #333;
+  margin: 0;
+}
