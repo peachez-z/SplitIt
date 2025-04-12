@@ -1,0 +1,46 @@
+.ocr-viewer {
+  margin-top: 24px;
+  padding: 16px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  background: #fff;
+
+  h3 {
+    margin-bottom: 12px;
+    font-size: 18px;
+    color: #333;
+  }
+
+  .ocr-raw-text {
+    width: 100%;
+    height: 100px;
+    font-family: monospace;
+    background: #f7f7f7;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 12px;
+  }
+
+  .amount-confirm {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    input {
+      padding: 6px 10px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+
+    button {
+      align-self: flex-start;
+      padding: 8px 16px;
+      background-color: #3b82f6;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+  }
+}
